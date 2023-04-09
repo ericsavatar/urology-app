@@ -4,9 +4,7 @@ FROM python:3.8-slim
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y git
-
-RUN git clone https://github.com/ericsvatar/urology-app.git .
+copy . .
 
 RUN pip install -r requirements.txt
 
