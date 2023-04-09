@@ -1,6 +1,6 @@
 # https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker
 
-FROM python:3.8.2-alpine
+FROM python:3.8.3-ubuntu-20.04
 
 WORKDIR /app
 
